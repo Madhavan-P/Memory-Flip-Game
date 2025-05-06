@@ -3,11 +3,7 @@ export default function Header({ handleOnChange, note, gameover }) {
   return (
     <header>
       <div className="header">
-        <img
-          src="/game-logo-removebg-preview.png"
-          alt="game-logo"
-          title="Game Logo"
-        />
+        <img src="/game-logo.png" alt="game-logo" title="Game Logo" />
         <div>
           <h1>Memory Flip Game</h1>
         </div>
